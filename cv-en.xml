@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<CV xmlns:xsd="http://w3.org/2001/XMLSchema-instance" xsd:oNamespaceSchemaLocation="cv-en.xsd" >
+
+    <info> 
+		<photo>image.jfif</photo>
+        <nom>Seddik</nom>
+		<prenom>Issam </prenom>
+        <role> 3rd year student - Mathematics and Computer Science </role>
+        <Phone>+212 (0) 6 39 00 39 91 </Phone>
+        <mail>sedissam@gmail.com</mail>
+		<adresse>Arrid 03 - Nador - 62000, Morocco</adresse>
+		<github>www.github.com/seddikissam</github>
+    </info>
+    
+    <educations part="Education">
+		<edu annee="2021 - 2022">
+			<lieu>Nador, Maroc</lieu>
+			<title>Third year at the multidisciplinary faculty of Nador in mathematics and computer science (SMI)</title>
+			<desc>Develop specialized knowledge of computer modules, such as advanced databases, system programming (Linux), advanced web, networks.</desc>
+		</edu>
+		<edu annee="2020 - 2021">
+			<lieu>Nador, Maroc</lieu>
+			<title>Second year at the multidisciplinary faculty of Nador in mathematics and computer science (SMI)</title>
+			<desc>Multidisciplinary Faculty of Nador. Obtained the diploma of general university studies (DEUG) in mathematics and computer science with a mention enough good. Subjects taught: Computer science, web basics, operating systems, numerical analysis, probabilities and statistics - Self-training. In parallel, self-training on the basics of artificial intelligence and machine learning (classification models, regression models using the artificial neural network approach) and programming in Python language.</desc>
+		</edu>
+		<edu annee="2016 - 2020">
+			<lieu>Nador, Maroc</lieu>
+			<title>First year at the multidisciplinary faculty of Nador in mathematics and applied sciences (SMA)</title>
+			<desc>Basic mathematics, physics and computer modules. "I had to repeat the first year several times because of my lack of French (subjects are taught in French from Bac+1 in Morocco)"</desc>
+		</edu>
+		<edu annee="2015 - 2016">
+			<lieu>Nador, Maroc</lieu>
+			<title>Scientific baccalaureate in physics and chemistry</title>
+			<desc>Graduation with Honors</desc>
+		</edu>
+    </educations>
+	
+	<certification part="Sololearn Certifications">
+		<dip>
+			<title>SQL</title>
+			<link><![CDATA[https://www.sololearn.com/certificates/course/en/15972878/1060/landscape/png]]></link>
+		</dip>
+		<dip>
+			<title>C</title>
+			<link><![CDATA[https://www.sololearn.com/Certificate/1089-15972878/jpg/]]></link>
+		</dip>
+		<dip>
+			<title>Python</title>
+			<link><![CDATA[https://www.sololearn.com/Certificate/1073-15972878/jpg/]]></link>
+		</dip>
+	</certification>
+	
+	<projetuni part="University projects">
+		<projet annee="Sept 2021 - June 2022 (ongoing)">
+			<title>Generation and Classification of the Tifinagh handwritten letters corpus (Berber language alphabet) using deep learning models ANN, CNN and GANs</title>
+			<authers>Issam Seddik, Prof. Safâa El Ouahabi</authers>
+			<lieu>Faculty of Nador</lieu>
+			<desc>This project concerns the development of methods for the recognition of Tifinagh handwritten letters using the deep learning approach (ANN, CNN) and their generation using generative adversarial networks (GANs).</desc>
+		</projet>
+		<projet annee="Sept 2021 - Feb 2022">
+			<title>Blockchain system (transaction management) in Java</title>
+			<authers>Issam Seddik, Prof. Khalid EL Makkaoui, Prof. Anas El Ansari, Prof. Mohamed Fartitchou, Jamal Boussouf, Wiam Choukoud, Mohamed Chillou, Hassan Talhaoui, Hanae Aurag, Redouan Bayyay</authers>
+			<lieu>Faculty of Nador</lieu>
+			<desc>Design and UML modeling of a Blockchain system for transaction management - Implementation of a decentralized monetary transaction system based on Blockchain technology - Source code: <![CDATA[: https://github.com/seddikissam/Blockchain-under-a-clear-vision]]></desc>
+		</projet>
+	</projetuni>
+	
+	<projetper part="Personal projects">
+		<projet annee="2020 - (ongoing)">
+			<title>High Level - Distance learning courses</title>
+			<authers>Issam Seddik, Moussa Seddik</authers>
+			<lieu>Nador and surroundings</lieu>
+			<desc>In the context of the COVID-19 pandemic, we have created a platform to provide distance learning tutoring to middle and high school students. Instagram account: https://www.instagram.com/highlevel.psh/</desc>
+		</projet>
+		<projet annee="Aug 2020 - Jan 2021">
+			<title>Tifinagh-MNIST: creation of a new database for the handwritten letters of the Berber language (Tifinagh)</title>
+			<authers>Issam Seddik, Moussa Seddik, Mohamed El Amine Seddik.</authers>
+			<lieu>Nador</lieu>
+			<desc>In this work, we have created a new dataset for the Berber language letters (Tifinagh), this dataset is intended for the development of AI tools to process handwritten Tifinagh characters and it adopts the same format as the traditional MNIST images.</desc>
+		</projet>
+	</projetper>
+	
+	<competences part="Scientific and computer skills">
+		<comp>
+			<title>Maths</title>
+			<content>Linear algebra, functional analysis, probability and statistics, linear programming, optimization.</content>
+		</comp>
+		<comp>
+			<title>Security</title>
+			<content>Blockchain, cryptography, digital signature, hash method</content>
+		</comp>
+		<comp>
+			<title>AI</title>
+			<content>Logistic regression, deep learning (multilayer perceptron, convolutional neural networks), dimension reduction (principal component analysis), automatic natural language processing (NLP), image classification, data visualization, generative adversarial networks</content>
+		</comp>
+		<comp>
+			<title>Design</title>
+			<content>Graphic design, UI/UX, UML, Merise (database design).</content>
+		</comp>
+		<comp>
+			<title>Codes</title>
+			<content>Python, C/C++, JAVA, PHP, Html, CSS, SQL, LaTeX, Shell.</content>
+		</comp>
+		<comp>
+			<title>Software</title>
+			<content>NetBeans, Oracle, Visual Studio, Jupyter, Notepad++, Packet Tracer, Adobe (Photoshop, Illustrator, XD), Inkscape.</content>
+		</comp>
+		<comp>
+			<title>Libraries</title>
+			<content>Security: java-security, RSA, SHA-256. Machine learning : Scikit-Learn. Deep learning and computer vision: TensorFlow, Keras, OpenCV.</content>
+		</comp>
+		<comp>
+			<title>Languages</title>
+			<content> Arabic (native), French (good), English (fair).</content>
+		</comp>	
+	</competences>
+	
+</CV>

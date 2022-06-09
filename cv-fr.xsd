@@ -1,0 +1,124 @@
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CV">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="info">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="photo"/>
+                            <xs:element type="xs:string" name="nom"/>
+                            <xs:element type="xs:string" name="prenom"/>
+                            <xs:element type="xs:string" name="role"/>
+                            <xs:element type="xs:string" name="Phone"/>
+                            <xs:element type="xs:string" name="mail">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension></xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="adresse"/>
+                            <xs:element type="xs:string" name="github"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="educations">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="edu">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="lieu"/>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element type="xs:string" name="desc"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="annee" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="part" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="certification">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="dip">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element type="xs:string" name="link">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension></xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="part" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="projetuni">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="projet">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element type="xs:string" name="authers"/>
+                                        <xs:element type="xs:string" name="lieu"/>
+                                        <xs:element type="xs:string" name="desc"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="annee" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="part" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="projetper">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="projet">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element type="xs:string" name="authers"/>
+                                        <xs:element type="xs:string" name="lieu"/>
+                                        <xs:element type="xs:string" name="desc">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension></xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="annee" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="part" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="competences">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="comp">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element type="xs:string" name="content"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="part" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="xsd:oNamespaceSchemaLocation" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
